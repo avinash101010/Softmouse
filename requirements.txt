@@ -1,0 +1,4 @@
+websockets
+sockets
+asyncio
+pyautogui
