@@ -51,5 +51,17 @@ Softmouse enables you to use your mobile device as a remote control for your com
 - Press the Disconnect button on your mobile to safely end the session.
 - If you want to reconnect, restart the server to get a new token.
 
+
+## Converting to Desktop app
+Use this command to make convert this into desktop app
+ ```bash
+ pyinstaller --onefile --name=customeName --icon=your_logo.png app_server.py
+```
+- Once you run this command go to ```./dist/``` you will find your app
+- It opens a window showing ip address, token and ```start server``` and ```stop server and close```
+- Click ```Start server``` button to start the server, dont sforget to do this step or else server wont start
+- Copy the token and paste it in your html client page. and press ```connect``` button
+- Explore client html page and navigate across the system
+
 ## Notes
 Ensure both your computer and mobile device are connected to the same network for smooth communication. 
