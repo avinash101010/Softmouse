@@ -2,3 +2,5 @@ websockets
 sockets
 asyncio
 pyautogui
+pyinstaller
+pyqt5
